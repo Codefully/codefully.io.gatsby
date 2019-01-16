@@ -1,0 +1,16 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow: auto !important;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+  text-align: center;
+  overflow: auto;
+}
+
+footer {
+  display: none;
+}
