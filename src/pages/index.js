@@ -25,7 +25,7 @@ const IndexPage = () => (
       <img
         alt="banner"
         src={Banner}
-        style={{ marginTop: -170, zIndex: -1, position: 'relative' }}
+        style={{ marginTop: -170, zIndex: -1, position: 'relative', maxWidth: '100%' }}
       />
     </div>
     <div style={{ backgroundColor: '#000', color: '#FFF', padding: '5rem 0' }}>
