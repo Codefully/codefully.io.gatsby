@@ -12,3 +12,14 @@ body {
 footer {
   display: none;
 }
+
+.banner1 {
+  /* background-image: url('../images/script.jpg'); */
+  background-attachment: fixed;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-color: #000;
+  /* background-size: cover; */
+  color: #fff;
+  padding: 5rem 0;
+}
