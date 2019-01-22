@@ -69,6 +69,7 @@ class ContactPage extends React.Component {
                   required
                   id="email"
                   name="email"
+                  type="email"
                   label="Email Address"
                   value={email}
                   onChange={this.handleChange('email')}
@@ -81,6 +82,7 @@ class ContactPage extends React.Component {
                   required
                   id="phone"
                   name="phone"
+                  type="tel"
                   label="Phone Number"
                   value={phone}
                   onChange={this.handleChange('phone')}
