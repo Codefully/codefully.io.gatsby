@@ -14,7 +14,7 @@ const Services = () => (
     </div>
     <div className="container-lg" style={{ padding: '50px 24px' }}>
       <Grid container spacing={24}>
-        <Grid item lg={6}>
+        <Grid item lg={6} sm={12}>
           <Typography variant="h2" className="hero" gutterBottom>
             <strong>
               We understand the intersection between business and creativity!
