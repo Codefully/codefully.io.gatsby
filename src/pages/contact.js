@@ -32,7 +32,7 @@ class ContactPage extends React.Component {
           <br />
           <form
             name="contact"
-            method="POST"
+            method="post"
             data-netlify-honeypot="bot-field"
             data-netlify="true"
           >
