@@ -33,19 +33,16 @@ class ContactPage extends React.Component {
           <form
             name="contact"
             method="POST"
-            netlify-honeypot="hpfield"
+            data-netlify-honeypot="bot-field"
             data-netlify="true"
           >
-            <div className="hpot">
-              <label>
-                Leave this field empty: <input name="hpfield" />
-              </label>
-            </div>
+            <input type="hidden" name="bot-field" />
             <Grid container spacing={24}>
               <Grid item sm={6}>
                 <TextField
                   required
                   id="firstName"
+                  name="firstName"
                   label="First Name"
                   value={firstName}
                   onChange={this.handleChange('firstName')}
@@ -57,6 +54,7 @@ class ContactPage extends React.Component {
                 <TextField
                   required
                   id="lastName"
+                  name="lastName"
                   label="Last Name"
                   value={lastName}
                   onChange={this.handleChange('lastName')}
@@ -70,6 +68,7 @@ class ContactPage extends React.Component {
                 <TextField
                   required
                   id="email"
+                  name="email"
                   label="Email Address"
                   value={email}
                   onChange={this.handleChange('email')}
@@ -81,6 +80,7 @@ class ContactPage extends React.Component {
                 <TextField
                   required
                   id="phone"
+                  name="phone"
                   label="Phone Number"
                   value={phone}
                   onChange={this.handleChange('phone')}
@@ -93,6 +93,7 @@ class ContactPage extends React.Component {
             <TextField
               required
               id="message"
+              name="message"
               label="What can we do for you?"
               multiline
               fullWidth
