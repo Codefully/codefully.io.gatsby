@@ -98,7 +98,7 @@ class ContactPage extends React.Component {
               fullWidth
               rowsMax="10"
               value={message}
-              onChange={this.handleChange('multiline')}
+              onChange={this.handleChange('message')}
               margin="normal"
             />
             <Button
