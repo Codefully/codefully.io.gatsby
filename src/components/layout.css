@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Teko:700');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300');
 
 html {
 }
@@ -15,6 +16,10 @@ body {
   font-weight: 700;
   color: #fff;
   text-decoration: none;
+}
+
+.hero {
+  font-family: 'Advent Pro', sans-serif;
 }
 
 .container {
@@ -33,17 +38,17 @@ footer {
 .banner1 {
   background-image: url('../images/office.jpg');
   background-attachment: fixed;
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-repeat: repeat-x;
   background-color: #241d2b;
-  background-size: cover;
+  /* background-size: auto 100%; */
   color: #fff;
   position: relative;
   overflow: hidden;
 }
 
 .banner-text {
-  padding: 2rem 24px 4rem;
+  padding: 1.2rem 24px 4rem;
   position: relative;
   z-index: 1;
 }

@@ -16,7 +16,12 @@ class IndexPage extends React.Component {
           <Navbar />
           <div className="container">
             <div className="banner-text">
-              <Typography variant="h1" color="secondary" gutterBottom>
+              <Typography
+                variant="h1"
+                className="hero"
+                color="secondary"
+                gutterBottom
+              >
                 <strong>Let’s bring your digital product ideas to life!</strong>
               </Typography>
               <Typography variant="h3" color="inherit" gutterBottom>
