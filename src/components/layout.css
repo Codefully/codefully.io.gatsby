@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Teko:700');
 
 html {
 }
@@ -9,17 +10,40 @@ body {
     sans-serif;
 }
 
+.logo {
+  font-family: 'Teko', 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
 footer {
   display: none;
 }
 
 .banner1 {
-  /* background-image: url('../images/script.jpg'); */
+  background-image: url('../images/office.jpg');
   background-attachment: fixed;
-  background-position: 100% 0;
+  background-position: 50%;
   background-repeat: no-repeat;
-  background-color: #000;
-  /* background-size: cover; */
+  background-color: #241d2b;
+  background-size: cover;
   color: #fff;
-  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-text {
+  padding: 2rem 24px 4rem;
+  position: relative;
+  z-index: 1;
 }
