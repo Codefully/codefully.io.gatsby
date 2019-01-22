@@ -27,7 +27,7 @@ class Navbar extends React.Component {
             color="primary"
             style={{ marginLeft: 10 }}
             component={Link}
-            to="/services"
+            to="/services/"
           >
             Services
           </Button>
@@ -36,7 +36,7 @@ class Navbar extends React.Component {
             color="primary"
             style={{ marginLeft: 10 }}
             component={Link}
-            to="/case-studies"
+            to="/case-studies/"
           >
             Case studies
           </Button>
@@ -45,7 +45,7 @@ class Navbar extends React.Component {
             color="secondary"
             style={{ marginLeft: 10 }}
             component={Link}
-            to="/contact"
+            to="/contact/"
           >
             Start a project with us
           </Button>
