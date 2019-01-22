@@ -5,7 +5,7 @@ import Navbar from '../components/navbar'
 import Typography from '@material-ui/core/Typography'
 import ReactRotatingText from 'react-rotating-text'
 
-class IndexPage extends React.Component {
+class HomePage extends React.Component {
   state = {}
 
   render() {
@@ -78,4 +78,4 @@ class IndexPage extends React.Component {
   }
 }
 
-export default IndexPage
+export default HomePage

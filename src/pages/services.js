@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 import Wireframe1 from '../images/wireframe1.svg'
 import { Grid } from '@material-ui/core'
 
-const Services = () => (
+const ServicesPage = () => (
   <Layout>
     <SEO title="Services" />
     <div className="banner1">
@@ -58,4 +58,4 @@ const Services = () => (
   </Layout>
 )
 
-export default Services
+export default ServicesPage

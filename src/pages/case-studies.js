@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const CaseStudies = () => (
+const CaseStudiesPage = () => (
   <Layout>
     <SEO title="Case Studies" />
     <div className="banner1">
@@ -12,4 +12,4 @@ const CaseStudies = () => (
   </Layout>
 )
 
-export default CaseStudies
+export default CaseStudiesPage
