@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <React.Fragment>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <CssBaseline />
         {children}
@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
-      </>
+      </React.Fragment>
     )}
   />
 )

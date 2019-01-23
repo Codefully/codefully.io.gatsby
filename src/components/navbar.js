@@ -15,13 +15,11 @@ class Navbar extends React.Component {
         style={{ backgroundColor: 'transparent', boxShadow: 'none' }}
       >
         <Toolbar>
-          <Link
-            to="/"
-            className="logo"
-            style={{ fontSize: '2.5rem', flexGrow: 1 }}
-          >
-            codefully.io
-          </Link>
+          <div style={{ flexGrow: 1 }}>
+            <Link to="/" className="logo" style={{ fontSize: '2.5rem' }}>
+              codefully.io
+            </Link>
+          </div>
           <Button
             variant="contained"
             color="primary"

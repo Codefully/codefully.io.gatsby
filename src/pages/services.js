@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Layout from '../components/layout'
+import { Grid } from '@material-ui/core'
 import Typography from '@material-ui/core/Typography'
 import SEO from '../components/seo'
 import Wireframe1 from '../images/wireframe1.svg'
-import { Grid } from '@material-ui/core'
 
 const ServicesPage = () => (
   <Layout>
@@ -14,7 +14,7 @@ const ServicesPage = () => (
     </div>
     <div className="container-lg" style={{ padding: '50px 24px' }}>
       <Grid container spacing={24}>
-        <Grid item lg={6} sm={12}>
+        <Grid item md={6} xs={12}>
           <Typography variant="h2" className="hero" gutterBottom>
             <strong>
               We understand the intersection between business and creativity!
@@ -50,7 +50,7 @@ const ServicesPage = () => (
             creating their future.
           </Typography>
         </Grid>
-        <Grid item lg={6} sm={12}>
+        <Grid item md={6} xs={12}>
           <img src={Wireframe1} alt="wireframe" className="img-fluid" />
         </Grid>
       </Grid>
